@@ -78,7 +78,7 @@ const addTwo = function (num) {
 };
 addTwo(5);
 
-// ------------------------------ will check one more exmp in the same ----------------------------
+// ------------------------------ will check one more example in the same ----------------------------
 
 console.log(addX(5)); // This works because addX is a function declaration, and function declarations are hoisted in JavaScript.
 function addX(num) {
