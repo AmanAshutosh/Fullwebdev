@@ -118,7 +118,7 @@ This is my personal journey, but I welcome suggestions, tips, or improvements!
 ## 📬 Contact
 
 📧 Reach out: ashutoshaman@duck.com
-🐦 Twitter: [@yourhandle](https://x.com/CodeKarm)  
+🐦 Twitter: [@CodeKarm](https://x.com/CodeKarm)  
 🎥 YouTube: [CodeKarm](https://www.youtube.com/@CodeKarm)
 
 ---
