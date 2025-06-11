@@ -1,6 +1,6 @@
 //  SCOPE
 
-/*
+/* =========================== Documenting =============================================================
 #  Scope determines the visibility and accessibility of variables — where in your code you can access them.
 # "GLOBAL SCOPE :" Accessible anywhere in the code.
 # "FUNCTION SCOPE :" Accessible only inside the function.
@@ -20,34 +20,78 @@
 | `const` | Block    | No\*    | No           | No           |
 
 
+==================================================================================================================*/
 
-*/
-
-
+// ========================== pract. ====================================================================
 // var c = 300
 
 let a = 300;
 
 if (true) {
   let a = 10;
-    const b = 20;
-    console.log("inner:", a);
-    
+  const b = 20;
+  // console.log("inner:", a);
 }
 
-// for (let index = 0; index < array.length; index++) {
-//     const element = array[index];
-    
-// }
-
-
- console.log(a);
+//  console.log(a);
 // console.log(b);
 // console.log(c);
 
+// =======================================================================================================
+// Nested Scope
+
+function one() {
+  const username = "nikhil";
+
+  function two() {
+    const website = "youtube";
+    console.log(username);
+  }
+  // console.log(website);
+
+  two();
+}
+// one();
+
+//  ================================================ if-else ===============================================
+if (true) {
+  const username = "codekram";
+  if (username === "codekram") {
+    const website = " Youtube";
+    // console.log(username + website);
+  }
+  // console.log(website);
+}
+// console.log(username);
+
+// +++++++++++++++++++++++++++ interesting ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+function addone(num) {
+  // this is basic function
+  return num + 1;
+}
+addone(5);
+
+const addTwo = function (num) {
+  // this is also basic function / technique but sometimes the "addTwo" is also called expression , kind of variable
+  return num + 2;
+};
+addTwo(5);
+
+// ------------------------------ will check one more exmp in the same ----------------------------
+
+console.log(addX(5)); // This works because addX is a function declaration, and function declarations are hoisted in JavaScript.
+function addX(num) {
+  return num + 1;
+}
 
 
+console.log(addY(5)); // this will give error You get an error because addY is a const function expression, and JavaScript doesn't allow accessing const variables before they're initialized.
+const addY = function (num) {
+  return num + 2;
+};
 
+// ================================================================================================
 //  Scope Chain
 
 let x = 1;
@@ -57,13 +101,15 @@ function outer() {
 
   function inner() {
     let z = 3;
-    console.log(x, y, z); // ✅ 1 2 3
+    // console.log(x, y, z); // ✅ 1 2 3
   }
 
   inner();
 }
 
 outer();
+
+// ================================================================================================================
 
 // Lexical Scope
 //  Lexical Scope means: Where you write the function determines its scope, not where you call it.
@@ -72,7 +118,7 @@ function outer() {
   let x = "outer";
 
   function inner() {
-    console.log(x); // ✅ 'outer' (looks in parent scope)
+    // console.log(x); // ✅ 'outer' (looks in parent scope)
   }
 
   return inner;
