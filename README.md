@@ -42,7 +42,7 @@ This is a structured and progressive archive of my learning path, projects, and 
 ### ✅ 7. **React JS**
 - JSX, Components, Props, State
 - Conditional Rendering, Lists, Forms
-- React Hooks (useState, useEffect, etc.)
+- React Hooks (useState, useEffect, etc.)..
 
 ### ✅ 8. **React Projects**
 - Real-world UI projects
