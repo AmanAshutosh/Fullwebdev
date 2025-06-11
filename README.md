@@ -117,9 +117,9 @@ This is my personal journey, but I welcome suggestions, tips, or improvements!
 
 ## 📬 Contact
 
-📧 Reach out: [your-email@example.com]  
-🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
-🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
+📧 Reach out: ashutoshaman@duck.com
+🐦 Twitter: [@yourhandle](https://x.com/CodeKarm)  
+🎥 YouTube: [CodeKarm](https://www.youtube.com/@CodeKarm)
 
 ---
 
