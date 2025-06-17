@@ -1,10 +1,9 @@
-# 🚀 Full Stack Dev — From Basics to Web3
+# 🚀 Full Stack Dev — From Basics to Web3.
 
 Welcome to my **Full Stack Developer Journey** repository!  
 This is a structured and progressive archive of my learning path, projects, and notes — starting from the **basics of web development** to advanced **full-stack** concepts and moving towards the **Web3 ecosystem**.
 
 ---
-
 
 
 ---
