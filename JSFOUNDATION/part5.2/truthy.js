@@ -11,7 +11,6 @@
 const usersEmail = [];
 if (usersEmail.length === 0) {
     console.log("array is empty");
-    
 }
 
 // obj
@@ -19,7 +18,6 @@ const emptyObj = {}
 
 if (Object.keys(emptyObj).length === 0) {
     console.log("Object is empty");
-    
 }
 
 
@@ -29,7 +27,6 @@ if (userEmail) {
     console.log("got user email");
 } else {
     console.log("dont have user email");
-    
 }
 
 /*================================== Nullish coalescing operator (??) : null undefined ===========================================
