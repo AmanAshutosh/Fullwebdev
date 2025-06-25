@@ -1,4 +1,4 @@
-// while
+// while {1. You don't know how many times you’ll loop. 2.You loop until a condition becomes false (based on user input, API response, etc). }
 
 let index = 1;
 while (index <= 10) {
@@ -29,10 +29,10 @@ do {
 
 // The do block runs at least once, even if the condition is false. then it checks while conditions.
 
-let usdt = 11;
+let usdt = 15;
 do {
   console.log(`money is ${usdt}`);
   usdt++;
 } while (usdt <= 10) {
     
-}// it will still print usdt 11 and than get out of the loop while checking the condition.
+}// it will still print usdt 15 and than get out of the loop while checking the condition.

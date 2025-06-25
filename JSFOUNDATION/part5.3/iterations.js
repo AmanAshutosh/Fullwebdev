@@ -1,10 +1,11 @@
 /* ======================= for loop =====================================
-syntax :-
+# syntax :-
 for (let index = 0; index < array.length; index++) {
     const element = array[index];
 }
 
-
+# You know in advance how many times you want to loop
+# You're looping through a sequence or range (like arrays or numbers).
 */
 
 for (let i = 0; i <= 10; i++) {
