@@ -28,10 +28,24 @@ map.set("IN", "India");
 // console.log(map);
 
 for (const key of map) {
-  console.log(key);  // this will give full map data into array with key and value 
+//   console.log(key);  // this will give full map data into array with key and value 
 }
 
 for (const [key, value] of map) {
-    console.log(key, ':-', value);
+    // console.log(key, ':-', value);
     
-} // and this is the way we can extract key and value differently or sep. 
+} // and this is the way we can extract key and value differently.
+
+
+
+// this is a sample code trying to iterate over an object but it will show an error.
+const myObject = {
+    'game1': 'NFS',
+    'game2' : 'Spiderman'
+}
+
+// for (const [key, value] of myObject) {
+//     console.log(key, ':-', value);
+    
+// }
+
