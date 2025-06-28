@@ -23,7 +23,8 @@ map.set("USA", "united state of america");
 map.set("BR", "Bihar");
 map.set("IN", "India");
 
-for (const key in map) {
-    console.log(key);
+// for (const key in map) {
+//     console.log(key);
     
-}
+// }
+
