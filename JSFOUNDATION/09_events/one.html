@@ -64,10 +64,27 @@
     // attachEvent()
     // jQuery - onEventlistner
 
+    // types, timestamp, defaultPrevented
+    // target, srcElement, toElement, currentTarget
+    // (interview) clientX, clientY, screenX, screenY
+    // altkey, ctrlkey, shiftkey, keyCode
+
     // best approch
 
-    document.getElementById("owl").addEventListener("click", function (e) {
-      console.log(e);
-    });
+    document.getElementById("images").addEventListener(
+      "click",
+      function (e) {
+        console.log("clicked inside th ul");
+      },
+      true
+    );
+
+    document.getElementById("owl").addEventListener(
+      "click",
+      function (e) {
+        console.log("owl clicked");
+      },
+      true
+    );
   </script>
 </html>
