@@ -21,3 +21,14 @@ let b = 12;
 b = 32;
 
 // let b = 23; //Error
+
+
+// snippet 2
+
+var a // Declare
+var a = 12; // initialize
+a = 13; // update or reassign
+
+var a; // redeclear , only allowed in var not in let or const.
+
+
