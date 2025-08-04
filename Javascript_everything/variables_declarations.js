@@ -16,6 +16,9 @@
 ✿ const - cannot be reassigned or redeclared
 ✿ const - value must be assigned at declaration.
 ✿ const - TDZ applies here too.
+
+✿ "I declare, I initialize, I never redeclare (unless it’s var).
+    I let my values change, but my const is forever."
 */
 
 // sample snippet
