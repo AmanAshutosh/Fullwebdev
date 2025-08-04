@@ -55,3 +55,21 @@ const PI = 3.4;
 const student = { name: "nik" };
 student.name = "vaishno" // ok
 // student = {}; // Error
+
+
+// snippet 6
+var x = 1; // global 
+{
+    var x = 2; // global b
+}
+console.log(x); // 2
+
+
+// snippet 7
+let a = 10; // block scope //global 
+{
+    let a = 20;
+    console.log("Inside:", a); // 10
+}
+console.log("Outside:", a); // 20
+
